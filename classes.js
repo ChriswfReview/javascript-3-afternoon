@@ -31,7 +31,19 @@
 
 //Code Here
 
-
+class Employee {
+  constructor(first_name, last_name, email, age) {
+    ;(this.makeWidget = (function(first_name, last_name) {
+      return first_name + " " + last_name + " " + "Widget"
+    })((this.first_name = first_name))),
+      (this.last_name = last_name),
+      (this.email = email),
+      (this.age = age)
+    this.makeWidget = function() {
+      return first_name + " " + last_name + " " + "Widget"
+    }
+  }
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -49,9 +61,7 @@
   Call your new class Manager
 */
 
-//Code Here
-
-
+Manager
 
 ////////// PROBLEM 3 //////////
 
@@ -77,8 +87,6 @@
 
 //Code Here
 
-
-
 ////////// PROBLEM 4 - Black Diamond //////////
 
 /*
@@ -103,5 +111,3 @@
 */
 
 //Code Here
-
-
